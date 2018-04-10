@@ -15,9 +15,13 @@ To perform a maven build and get a quote using the specified market data input f
 
 `./buildAndQuote.sh <market file> <loan amount>`
 
+e.g. `./buildAndQuote.sh market.csv 1000`
+
 To get a quote using the specified market data input file and loan amount, using a previously built version of the code.
 
 `./quote.sh <market file> <loan amount>`
+
+e.g. `./quote.sh market.csv 1000`
 
 ---
 ### Running the tests
